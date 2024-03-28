@@ -21,7 +21,9 @@
   color: var(--color-text);
   z-index: 1;
   padding: 33vw 0px;
+  width: 100%;
 }
+
 .title {
   font-size: 72px;
   font-weight: 900;
@@ -55,7 +57,7 @@
 }
 .heroImg {
   position: absolute;
-  top: 0%;
+  top: 0;
   width: 50%;
   z-index: 1;
 
@@ -106,7 +108,7 @@
   filter: blur(100px);
   z-index: 0;
 }
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 768px) {
   .container {
     flex-direction: column-reverse;
   }
@@ -115,5 +117,26 @@
   }
   .description {
     margin: 0 8% 52px 10%;
+  }
+  .contactBtn {
+    position: relative;
+    left: 50%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .content {
+    padding-top: 20vw;
+  }
+  .overlay {
+    width: 50vw;
+  }
+  .heroImg {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .contactBtn {
+    position: absolute;
+    top: 60%;
   }
 }
