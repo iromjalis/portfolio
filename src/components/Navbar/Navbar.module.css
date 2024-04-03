@@ -26,7 +26,7 @@
   color: var(--color-text);
   text-decoration: none;
 }
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 768px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
@@ -61,7 +61,7 @@
     z-index: 1;
   }
 }
-@media screen and (min-width: 831px) {
+@media screen and (min-width: 769px) {
   .menuBtn {
     display: none;
     cursor: none;
