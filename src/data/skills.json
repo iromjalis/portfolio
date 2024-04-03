@@ -1,0 +1,22 @@
+[
+  {
+    "title": "HTML",
+    "img": "html"
+  },
+  {
+    "title": "CSS",
+    "img": "css"
+  },
+  {
+    "title": "Figma",
+    "img": "figma"
+  },
+  {
+    "title": "React",
+    "img": "react"
+  },
+  {
+    "title": "Node",
+    "img": "node"
+  }
+]
