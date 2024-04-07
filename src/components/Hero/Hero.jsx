@@ -12,15 +12,15 @@ export const Hero = () => {
             I am a full-stack developer, who loves to write code using React and
             NodeJS. Reach out, if you like to know more!
           </p>
-          <a
-            className={styles.contactBtn}
-            href="mailto:romjalis.irina@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Contact me
-          </a>
         </div>
+        <a
+          className={styles.contactBtn}
+          href="mailto:romjalis.irina@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Contact me
+        </a>
         <img src={heroImage} alt="hero image" className={styles.heroImg} />
         <div className={styles.topBlur} />
         <div className={styles.bottomBlur} />
