@@ -1,0 +1,71 @@
+[
+  {
+    "title": "Event Booster",
+    "imageSrc": "https://images.axios.com/D2QW0oywgI-idsr7V2UkEV_rV0I=/0x0:2667x2000/640x480/2022/11/21/1669070830770.jpg",
+    "description": "This is a project made to learn ReactJS by building an app to find events around the world.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "NodeJS",
+      "Git",
+      "Firebase",
+      "Figma",
+      "Visual Studio Code"
+    ],
+    "demo": "https://chivapchichi2.github.io/event-booster-project/",
+    "source": "https://github.com/Chivapchichi2/event-booster-project",
+    "role": ["Frontend Developer", "Scrum Master"]
+  },
+  {
+    "title": "Ice cream project",
+    "imageSrc": "https://static.vecteezy.com/system/resources/previews/009/249/310/original/ice-cream-social-media-landing-page-template-flat-cartoon-background-illustration-vector.jpg",
+    "description": "This is a project made to learn JavaScript by building an app for ice cream lovers.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Git",
+      "Figma",
+      "Visual Studio Code"
+    ],
+    "demo": "https://kalvasflame.github.io/parcel-project-template/",
+    "source": "https://github.com/KalVasFlame/parcel-project-template",
+    "role": ["Frontend Developer", "Hero section designer"]
+  },
+  {
+    "title": "WebStudio Project",
+    "imageSrc": "https://s3-alpha.figma.com/hub/file/287060630/9905ebd4-04ef-4040-a90b-c4798c659180-cover",
+    "description": "This is a responsive landing page made to learn JavaScpirt by building an app for WebStudio with custom modal window and second page as internet shop with animation.",
+    "skills": [
+      "HTML",
+      "SCSS",
+      "JavaScript",
+      "Git",
+      "Figma",
+      "Visual Studio Code"
+    ],
+    "demo": "https://iromjalis.github.io/goit-markup-hw-08/",
+    "source": "https://github.com/iromjalis/goit-markup-hw-08?tab=readme-ov-file",
+    "role": ["Frontend Developer"]
+  },
+  {
+    "title": "Money tracker",
+    "imageSrc": "https://moneytracker.cc/assets/screenshot.png",
+    "description": "This is a project made to learn ReactJS and NodeJS by building an money tracker app, easy to use with diagrams of your spendings.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "NodeJS",
+      "Git",
+      "Figma",
+      "Visual Studio Code"
+    ],
+    "demo": "https://team-proj-money-tracker.netlify.app/",
+    "source": "https://github.com/dzhafarovm/money-tracker",
+    "role": ["Frontend Developer"]
+  }
+]
