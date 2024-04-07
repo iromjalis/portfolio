@@ -11,7 +11,7 @@
 
   color: var(--color-text);
   background-color: var(--color-background);
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .content {
   position: relative;
@@ -20,7 +20,7 @@
   align-items: flex-start;
   color: var(--color-text);
   z-index: 1;
-  padding: 33vw 0px;
+  padding: 33vw 0px 10px;
   width: 100%;
 }
 
@@ -110,7 +110,7 @@
 }
 @media screen and (max-width: 768px) {
   .container {
-    flex-direction: column-reverse;
+    text-align: center;
   }
   .content {
     align-items: center;
@@ -118,16 +118,12 @@
   .description {
     margin: 0 8% 52px 10%;
   }
-  .contactBtn {
-    position: relative;
-    left: 50%;
-  }
 }
 @media screen and (min-width: 769px) {
   .content {
-    padding-top: 20vw;
+    text-align: center;
   }
-  .overlay {
+  .description {
     width: 50vw;
   }
   .heroImg {
@@ -136,7 +132,7 @@
     right: 0;
   }
   .contactBtn {
-    position: absolute;
-    top: 60%;
+    margin-top: 10%;
+    margin-left: 33%;
   }
 }
