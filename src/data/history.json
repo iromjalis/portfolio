@@ -1,29 +1,62 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
-  },
-  {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
+    "role": "Sales assistant trainee",
+    "organisation": "Tax Free World Oy",
+    "startDate": "Sept, 2020",
+    "endDate": "Nov, 2020",
     "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
+      "sales manager",
+      "entering daily account settlements and stocktaking",
+      "customer service"
     ],
-    "imageSrc": "history/netflix.png"
+    "imageSrc": ""
+  },
+  {
+    "role": "Financial assistant",
+    "organisation": "Eezy Oyj / VR-Yhtymä Oy",
+    "startDate": "Dec, 2018",
+    "endDate": "March, 2020",
+    "experiences": [
+      "checking sales",
+      "entering daily account settlements and stocktaking",
+      "checking restaurant cars account materials"
+    ],
+    "imageSrc": ""
+  },
+  {
+    "role": "Accountant assistant trainee",
+    "organisation": "Maria Perhekeskus Ry",
+    "startDate": "Sept, 2018",
+    "endDate": "Dec, 2018",
+    "experiences": [
+      "checking sales",
+      "customer service by phone, email ",
+      "recording daily account settlements"
+    ],
+    "imageSrc": ""
+  },
+  {
+    "role": "Accountant trainee and chief accountant assistant",
+    "organisation": "Lease Deal Group Oyj",
+    "startDate": "Jan, 2018",
+    "endDate": "Aug, 2018",
+    "experiences": [
+      "processing purchase invoices and accounts",
+      "checking sales and incomes",
+      "recording daily account settlements"
+    ],
+    "imageSrc": ""
+  },
+  {
+    "role": "Accountant internship",
+    "organisation": "Lakiasiaintoimisto Asiakasturva Oy",
+    "startDate": "March, 2017",
+    "endDate": "May, 2017",
+    "experiences": [
+      "processing daily customer register",
+      "customer service",
+      "checking sales and registering taxes"
+    ],
+    "imageSrc": ""
   }
 ]
