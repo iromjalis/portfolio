@@ -1,22 +1,126 @@
 [
   {
     "title": "HTML",
-    "img": "html"
+    "img": "https://cdn-icons-png.flaticon.com/512/174/174854.png"
   },
   {
     "title": "CSS",
-    "img": "css"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
   },
   {
     "title": "Figma",
-    "img": "figma"
+    "img": "https://cdn.freebiesupply.com/logos/large/2x/figma-1-logo-png-transparent.png"
   },
   {
     "title": "React",
-    "img": "react"
+    "img": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
   },
   {
     "title": "Node",
-    "img": "node"
+    "img": "https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+  },
+  {
+    "title": "MongoDB",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/mongodb-3-1175138.png"
+  },
+  {
+    "title": "Express",
+    "img": "https://seeklogo.com/images/E/express-js-logo-FA36FF1D3F-seeklogo.com.png"
+  },
+  {
+    "title": "JavaScript",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png"
+  },
+  {
+    "title": "Python",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/python-3521655-2945099.png"
+  },
+  {
+    "title": "Django",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/django-12-1175186.png"
+  },
+  {
+    "title": "PostgreSQL",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/postgresql-226047.png"
+  },
+  {
+    "title": "Heroku",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/heroku-5-569467.png"
+  },
+  {
+    "title": "Netlify",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/netlify-3521446-2944770.png"
+  },
+  {
+    "title": "Vercel",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/vercel-283060.png"
+  },
+  {
+    "title": "Git",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/git-225996.png"
+  },
+  {
+    "title": "GitHub",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png"
+  },
+  {
+    "title": "VS Code",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/visual-studio-code-1868941-1583105.png"
+  },
+  {
+    "title": "Bootstrap",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/bootstrap-7-1175254.png"
+  },
+  {
+    "title": "Material UI",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/material-ui-3628617-3030113.png"
+  },
+  {
+    "title": "Tailwind CSS",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/tailwindcss-3521399-2944739.png"
+  },
+  {
+    "title": "Sass",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/sass-226054.png"
+  },
+  {
+    "title": "Redux",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/redux-283024.png"
+  },
+  {
+    "title": "TypeScript",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/typescript-1174965.png"
+  },
+  {
+    "title": "Next.js",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/next-js-3521559-2944811.png"
+  },
+  {
+    "title": "Gatsby",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/gatsby-3521547-2944801.png"
+  },
+  {
+    "title": "GraphQL",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/graphql-3-1175072.png"
+  },
+  {
+    "title": "Apollo",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/apollo-3-1175074.png"
+  },
+  {
+    "title": "Docker",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/docker-226091.png"
+  },
+  {
+    "title": "Kubernetes",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/kubernetes-282855.png"
+  },
+  {
+    "title": "Jest",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/jest-3521541-2944797.png"
+  },
+  {
+    "title": "Cypress",
+    "img": "https://cdn.iconscout.com/icon/free/png-256/cypress-3521540-2944796.png"
   }
 ]
