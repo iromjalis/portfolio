@@ -1,0 +1,61 @@
+@import "../../vars.css";
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 100vw;
+  color: var(--color-text);
+  /* background-color: var(--color-secondary); */
+  gap: 10px;
+  padding: 120px 30px 30px 30px;
+}
+
+.contact_title {
+  color: var(--color-text);
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.contact_par {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 26px;
+}
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.25px;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+  .text {
+    display: flex;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .footer {
+    flex-direction: column;
+    /* width: 50vw; */
+  }
+}
