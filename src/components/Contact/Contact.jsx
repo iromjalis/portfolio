@@ -7,7 +7,7 @@ import linkedinIcon from "../../assets/contact/linkedinIcon.png";
 export const Contact = () => {
   return (
     <footer className={styles.footer} id="contact">
-      <div className={styles.footer}>
+      <div className={styles.title_container}>
         <h2 className={styles.contact_title}>Contact</h2>
         <p className={styles.contact_par}>Feel free to reach out!</p>
       </div>
