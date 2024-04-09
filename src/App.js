@@ -3,6 +3,11 @@ import { Navbar } from "./components/Navbar/Navbar.jsx";
 import { Hero } from "./components/Hero/Hero.jsx";
 import { About } from "./components/About/About.jsx";
 import { Experience } from "./components/Experience/Experience.jsx";
+import history from "./data/history.json";
+import skills from "./data/skills.json";
+import projects from "./data/projects.json";
+import { Projects } from "./components/Projects/Projects.jsx";
+import { Contact } from "./components/Contact/Contact.jsx";
 
 function App() {
   return (
@@ -10,7 +15,9 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Experience />
+      <Experience skills={skills} history={history} />
+      <Projects projects={projects} />
+      <Contact />
     </div>
   );
 }
