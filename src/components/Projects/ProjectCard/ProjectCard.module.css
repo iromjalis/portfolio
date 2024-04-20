@@ -23,7 +23,7 @@
     var(--color-secondary) 100%
   );
   overflow: hidden;
-  max-width: 355px;
+  max-width: 296px;
   margin: 5px;
 }
 .project_image {
@@ -54,7 +54,7 @@
   gap: 6px;
 }
 .skill_item {
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 400;
   border-radius: 100px;
   padding: 6px 12px;
@@ -72,7 +72,7 @@
 .link {
   text-decoration: none;
   color: var(--color-text);
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
   border-radius: 100px;
   background: var(--color-secondary);
@@ -82,4 +82,33 @@
 .link:hover {
   background: var(--color-dark);
   border: 1px solid #000;
+}
+@media screen and (min-width: 769px) {
+  .link {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .title {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .desc {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .link,
+  .skill_item {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .title {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  .desc {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
 }

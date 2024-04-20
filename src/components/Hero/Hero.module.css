@@ -11,7 +11,7 @@
 
   color: var(--color-text);
   background-color: var(--color-background);
-  /* border: 1px solid red; */
+  padding: 30px 0;
 }
 .content {
   position: relative;
@@ -25,7 +25,7 @@
 }
 
 .title {
-  font-size: 72px;
+  font-size: 60px;
   font-weight: 900;
   margin-bottom: 33px;
   padding: 10px;
@@ -38,6 +38,7 @@
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
 }
 .description {
   font-size: 30px;
@@ -57,7 +58,7 @@
 }
 .heroImg {
   position: absolute;
-  top: 0;
+  top: -5%;
   width: 50%;
   z-index: 1;
 
@@ -108,6 +109,7 @@
   filter: blur(100px);
   z-index: 0;
 }
+/* mobile version */
 @media screen and (max-width: 768px) {
   .container {
     text-align: center;
@@ -119,20 +121,49 @@
     margin: 0 8% 52px 10%;
   }
 }
+/* tablet version */
 @media screen and (min-width: 769px) {
   .content {
     text-align: center;
+    padding: 0px 0px 10px;
+  }
+  .title {
+    font-size: 50px;
   }
   .description {
-    width: 50vw;
+    font-size: 25px;
+    width: 50%;
+    margin-left: 5%;
   }
   .heroImg {
     position: absolute;
-    top: 0;
+    top: 20%;
     right: 0;
+    width: 40%;
   }
   .contactBtn {
+    font-size: 20px;
     margin-top: 10%;
     margin-left: 33%;
+  }
+}
+/* laptop version */
+@media screen and (min-width: 1200px) {
+  .title {
+    font-size: 70px;
+  }
+  .description {
+    font-size: 50px;
+  }
+  .heroImg {
+    position: absolute;
+    top: 10%;
+    right: -5%;
+    max-width: 40%;
+  }
+  .contactBtn {
+    font-size: 35px;
+    margin-top: 10%;
+    margin-left: 75%;
   }
 }

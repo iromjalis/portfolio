@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 //rafc
 import heroImage from "../../assets/hero/heroImage.png";
 import styles from "./Hero.module.css";

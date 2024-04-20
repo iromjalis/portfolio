@@ -11,7 +11,7 @@
 }
 .projects_title {
   color: var(--color-text);
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
@@ -22,7 +22,7 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 37px;
-  margin: 15px;
+  margin: 15px 0px;
   border-radius: 15px;
   width: 100%;
 }

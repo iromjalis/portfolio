@@ -33,7 +33,7 @@ export const About = () => {
             <img src={server} alt="server icon" />
 
             <div className={styles.about_text}>
-              <h3>Backend Developer</h3>
+              <h3 className={styles.about_itemtitle}>Backend Developer</h3>
 
               <p className={styles.about_paragraph}>
                 I have experience developing fast and optimised back-end systems
@@ -46,7 +46,7 @@ export const About = () => {
             <img src={ui} alt="ui icon" />
 
             <div className={styles.about_text}>
-              <h3>UI Designer</h3>
+              <h3 className={styles.about_itemtitle}>UI Designer</h3>
               <p className={styles.about_paragraph}>
                 I have designed multiple landing pages and have created design
                 systems as well

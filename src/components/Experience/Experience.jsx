@@ -15,6 +15,7 @@ export const Experience = ({ skills, history }) => {
                   alt={title}
                   width="64"
                   className={styles.skillItem}
+                  title={title}
                 />
               </div>
             </div>

@@ -8,6 +8,7 @@ import skills from "./data/skills.json";
 import projects from "./data/projects.json";
 import { Projects } from "./components/Projects/Projects.jsx";
 import { Contact } from "./components/Contact/Contact.jsx";
+import ToTop from "./components/ToTop/ToTop.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Experience skills={skills} history={history} />
       <Projects projects={projects} />
       <Contact />
+      <ToTop />
     </div>
   );
 }

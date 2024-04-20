@@ -14,11 +14,10 @@
   padding: 73px;
 
   z-index: 1;
-  /* border: 1px solid red; */
 }
 .about_title {
   color: var(--color-text);
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
@@ -62,7 +61,7 @@
 .about_item:focus {
   background-size: 100% 100%;
 }
-
+/* mobile version */
 @media screen and (max-width: 768px) {
   .container {
     background-color: transparent;
@@ -81,5 +80,37 @@
   }
   .about_text {
     padding-left: 10px;
+  }
+}
+/* tablet version */
+@media screen and (min-width: 769px) {
+  .about_title {
+    font-size: 30px;
+  }
+  .about_img {
+    width: 30%;
+  }
+  .about_itemtitle {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .about_paragraph {
+    font-size: 25px;
+  }
+}
+/* laptop version */
+@media screen and (min-width: 1200px) {
+  .about_title {
+    font-size: 40px;
+  }
+  .about_img {
+    width: 40%;
+  }
+  .about_itemtitle {
+    font-size: 40px;
+    font-weight: 900;
+  }
+  .about_paragraph {
+    font-size: 30px;
   }
 }
