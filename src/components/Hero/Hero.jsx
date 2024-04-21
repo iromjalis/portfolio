@@ -14,17 +14,10 @@ export const Hero = () => {
             NodeJS. Reach out, if you like to know more!
           </p>
         </div>
-        <a
-          className={styles.contactBtn}
-          href="mailto:romjalis.irina@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a className={styles.contactBtn} href="#contact">
           Contact me
         </a>
         <img src={heroImage} alt="hero image" className={styles.heroImg} />
-        <div className={styles.topBlur} />
-        <div className={styles.bottomBlur} />
       </div>
     </section>
   );
