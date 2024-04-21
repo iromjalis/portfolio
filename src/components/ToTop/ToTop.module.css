@@ -1,13 +1,9 @@
 .topBtn {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
 
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
 
   font-size: 40px;
   background-color: var(--color-secondary);
@@ -15,14 +11,24 @@
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  padding: 15px;
   z-index: 1000;
-  transition: background-color 0.3s;
+  transition: ease-in 0.3s;
+  margin-left: 600px;
+
+  bottom: 10px;
 }
 .topBtn:hover,
 .topBtn:focus {
   background-color: var(--color-primary);
   color: var(--color-secondary);
+  box-shadow: 1px -1px 58px 7px rgba(87, 108, 188, 0.72);
+  -webkit-box-shadow: 1px -1px 58px 7px rgba(87, 108, 188, 0.72);
+  -moz-box-shadow: 1px -1px 58px 7px rgba(87, 108, 188, 0.72);
+}
+@media screen and (max-width: 768px) {
+  .topBtn {
+    display: none;
+  }
 }
 @media screen and (min-width: 769px) {
   .topBtn {
