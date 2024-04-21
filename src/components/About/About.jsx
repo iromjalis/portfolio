@@ -36,8 +36,7 @@ export const About = () => {
               <h3 className={styles.about_itemtitle}>Backend Developer</h3>
 
               <p className={styles.about_paragraph}>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                I have experience developing optimised back-end pet projects
               </p>
             </div>
           </li>
@@ -49,7 +48,7 @@ export const About = () => {
               <h3 className={styles.about_itemtitle}>UI Designer</h3>
               <p className={styles.about_paragraph}>
                 I have designed multiple landing pages and have created design
-                systems as well
+                systems as well for my projects
               </p>{" "}
             </div>
           </li>
