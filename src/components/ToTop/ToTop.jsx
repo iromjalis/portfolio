@@ -9,7 +9,7 @@ export default function ToTop() {
     });
   };
   return (
-    <div className={styles.topBtn} onClick={() => ToTop()}>
+    <div className={styles.topBtn} onClick={() => ToTop()} width="40px">
       &#x2191;
     </div>
   );
